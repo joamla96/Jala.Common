@@ -4,16 +4,14 @@
 
 //namespace Jala.Common
 //{
-//    public class BaseRepositorySingleton<T, Ts> : BaseRepository<T>
+//    public class BaseRepositorySingleton<T> : BaseRepository<T>
 //    {
-//        private Ts instance;
-//        public Ts Instace {
+//        private IBaseRepositorySingleton instance;
+//        public IBaseRepositorySingleton Instace {
 //            get {
-//                if (this.instance == null) { this.instance = new Ts(); }
+//                if (this.instance == null) { this.instance = new (); }
 //                return this.instance;
 //            }
 //        }
-
-//        //private BaseRepositorySingleton() { }
 //    }
 //}
