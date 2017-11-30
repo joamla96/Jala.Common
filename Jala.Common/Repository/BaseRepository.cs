@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Jala.Common
+namespace Jala.Common.Repository
 {
     public class BaseRepository<T>
     {
